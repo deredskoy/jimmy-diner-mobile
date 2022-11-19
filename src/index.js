@@ -1,4 +1,4 @@
-import { menuArray } from './data.js'
+import menuArray from './data.js'
 
 function getMainHtml() {
     let feedHtml = ''
@@ -34,7 +34,7 @@ document.addEventListener('click', function(e) {
 })
 
 function handleItemClick(itemId) {
-    
+
 }
 
 function render() {
