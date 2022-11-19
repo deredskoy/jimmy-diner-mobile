@@ -29,9 +29,13 @@ function getMainHtml() {
 
 document.addEventListener('click', function(e) {
     if(e.target.dataset.item) {
-        console.log(e.target.dataset.item)
+        handleItemClick(e.target.dataset.item)
     }
 })
+
+function handleItemClick(itemId) {
+    
+}
 
 function render() {
     document.getElementById('main-menu').innerHTML = getMainHtml()
