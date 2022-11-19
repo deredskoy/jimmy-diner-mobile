@@ -1,1 +1,1 @@
-# jimmy-diner.github.io
+# jimmy-diner-mobile.github.io
