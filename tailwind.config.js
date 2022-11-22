@@ -5,7 +5,10 @@ module.exports = {
     extend: {
       colors: {
         'regal-grey': '#D6D6D6',
-      }
+      },
+      fontSize: {
+        smm: '4px',
+      },
     },
   },
   plugins: [],
